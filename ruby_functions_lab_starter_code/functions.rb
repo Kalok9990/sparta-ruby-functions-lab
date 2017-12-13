@@ -39,7 +39,7 @@ def reverse_string a
   a.reverse
 end
 
-# write a function that returns the year of birth from an age
+# Remove the vowels in a string
 # disemvowel
 def disemvowel a
   a.gsub(/[aeiou]/i, '')
